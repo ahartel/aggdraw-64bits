@@ -21,7 +21,7 @@ VERSION = "1.1-64bits"
 FREETYPE_ROOT = "../../kits/freetype-2.1.10"
 
 if not os.path.isdir(FREETYPE_ROOT):
-    print "===", "freetype support disabled"
+    print("===", "freetype support disabled")
     FREETYPE_ROOT = None
 
 sources = [
